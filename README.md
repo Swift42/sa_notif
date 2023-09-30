@@ -16,12 +16,13 @@ How to use:
   When the timer reaches 0, you will get a notification.
 
 Notes: 
-	You need to initiate the mining from the "Manage Fleet->Mining OPs" page. 
+  You need to initiate the mining from the "Manage Fleet->Mining OPs" page. 
   Starting the mining from "Mining Operations" is not supported currently.
-	If you reload the Sage Labs page, the script and all timers are removed.
-	This script currently doesn't check if you deny the transaction in your wallet.
+  If you reload the Sage Labs page, the script and all timers are removed.
+  If you put your computer into standby mode, the timers may not work correctly.
+  This script currently doesn't check if you deny the transaction in your wallet.
   This script comes without any warranty :-)
 
 Troubleshooting:
-	If Chrome puts your background tab to sleep, try to add labs.staratlas.com 
-	to the memory saver exclude list here: chrome://settings/performance
+  If Chrome puts your background tab to sleep, try to add labs.staratlas.com 
+  to the memory saver exclude list here: chrome://settings/performance
