@@ -31,8 +31,8 @@ javascript: (() => {
 			console.log('Crafting time: '+time);
 			var seconds=window.timeStringToSeconds(time);
 			setTimeout(function() { window.notifyMe("Crafting done: "+rssName); },seconds*1000);
-		}		
-  });
+		}
+  	});
 	window.timeStringToSeconds=function(time)
 	{
 		var timeChunks=time.split(' ');
@@ -58,7 +58,7 @@ javascript: (() => {
 					const notification = new Notification(msg);
 				}
 			});
-		}	
+		}
 	};
-	window.notifyMe('Mining/crafting event listener added.');	
+	window.notifyMe('Mining/crafting event listener added.');
 })();
